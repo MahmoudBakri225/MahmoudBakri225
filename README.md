@@ -7,31 +7,33 @@ I'm a passionate Full-Stack .NET Developer with experience in backend developmen
 ### Languages & Frameworks
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/> **C#**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET" width="40" height="40"/> **.NET Core**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL" width="40" height="40"/> **SQL**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/> **HTML5**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> **CSS3**
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/> C# &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET Core" width="40" height="40"/> .NET Core &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sql/sql-original.svg" alt="SQL" width="40" height="40"/> SQL &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/> HTML5 &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> CSS3
 </p>
 
 ### Tools & Technologies
 
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> **Git**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> **GitHub**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"/> **Visual Studio**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio_code/visualstudio_code-plain.svg" alt="VS Code" width="40" height="40"/> **VS Code**
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/> **Linux**
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/> Git &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/> GitHub &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"/> Visual Studio &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio_code/visualstudio_code-plain.svg" alt="VS Code" width="40" height="40"/> VS Code &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/> Linux
 </p>
 
 ## 📚 Education
 
-Bachelor's Degree in Information Systems from Zagazig University, with a strong foundation in software development and database management.
+**Bachelor's Degree in Information Systems**  
+Zagazig University  
+Grade: Very Good
 
 ## 💼 Experience
 
-- **Backend Developer Intern** at Algoriza and EraaSoft
-- **Self-taught Developer** - Completed various courses on Udemy, expanding my knowledge in C# and SQL
+- **Backend Developer Intern** at Algoriza and EraaSoft – Worked on backend systems using technologies like C#, ASP.NET, SQL Server, LINQ, and Entity Framework.
+- **Self-taught Developer** – Completed various courses on Udemy, expanding my knowledge in C# and SQL.
 
 ## 🚀 Projects
 
@@ -49,7 +51,8 @@ A C# program simulating banking operations such as deposits and withdrawals.
 
 ## 🏆 Honors & Awards
 
-- **First Place** in Graduation Projects Competition, Information Systems Department, Zagazig University (for COVID-19 Interactive Map & Advisory)
+- **First Place** in Graduation Projects Competition, Information Systems Department, Zagazig University  
+  Project: Al-Sharkia COVID-19 Interactive Map & Advisory
 
 ## 🌐 Let's Connect!
 
