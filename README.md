@@ -45,12 +45,6 @@ A full-fledged shopping system that allows users to browse products, add items t
 - **Database Integration**: Data stored in SQL Server, managed with Entity Framework.
 
 
-### ETickets
-An MVC system to display available movies and allow users to book tickets with a full-control dashboard.
-
-### E-Commerce Platform
-A shopping system for product browsing, with a shopping cart and order management.
-
 ### Banking System
 A C# program simulating banking operations such as deposits and withdrawals.
 
