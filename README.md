@@ -1,41 +1,48 @@
 # 👋 Hi, I'm Mahmoud Bakri
 
-I'm a full-stack .NET developer with experience in building dynamic and responsive applications, specializing in C# and .NET development. Welcome to my GitHub profile, where I showcase a collection of my public and private projects.
+I'm a passionate Full-Stack .NET Developer with experience in backend development, specializing in C#, ASP.NET, and SQL. I enjoy creating efficient, scalable solutions and continuously improving my skills through new challenges and projects.
 
-## Projects
+## 🛠️ Skills & Tools
 
-### ECommerce
-A comprehensive e-commerce application built in C# for managing product listings, orders, and user authentication.
+- **Languages**: C#, SQL
+- **Frameworks**: ASP.NET, Entity Framework, MVC
+- **Technologies**: LINQ, RESTful APIs
+- **Frontend**: HTML, CSS
+- **Interpersonal**: Communication, Teamwork, Problem-solving
 
-### B-UniversityManagement
-An advanced management system for university administration, developed in C#.
+## 📚 Education
 
-### UniversityManagement
-A C# project focused on managing university resources, student data, and academic information.
+Bachelor's Degree in Information Systems from Zagazig University, with a strong foundation in software development and database management.
 
-### EComerciAPI
-RESTful API for e-commerce operations, enabling functionalities like product management and order processing.
+## 💼 Experience
+
+- **Backend Developer Intern** at Algoriza and EraaSoft
+- **Self-taught Developer** - Completed various courses on Udemy, expanding my knowledge in C# and SQL
+
+## 🚀 Projects
+
+### [🏦 Bank Account Management System](https://github.com/MahmoudBakri225/Bank-Account-Management-System)
+A console-based bank account management application that supports creating accounts, depositing, withdrawing, and displaying account information. This project demonstrates key concepts like object-oriented programming, collections, and C# fundamentals.
 
 ### ETickets
-A ticket management system in C# for handling event ticket sales and bookings.
+An MVC system to display available movies and allow users to book tickets with a full-control dashboard.
 
-### ProductAPI
-API service to manage product details and cataloging, built with C#.
+### E-Commerce Platform
+A shopping system for product browsing, with a shopping cart and order management.
 
-### MVCSimpleApp
-A basic MVC application built in C#, demonstrating core MVC principles and CRUD operations.
+### Banking System
+A C# program simulating banking operations such as deposits and withdrawals.
 
-### Hospital
-A front-end hospital management template built with HTML.
+## 🏆 Honors & Awards
 
-### EFTask-Html
-An entity framework task project in C# demonstrating the use of Entity Framework.
+- **First Place** in Graduation Projects Competition, Information Systems Department, Zagazig University (for COVID-19 Interactive Map & Advisory)
 
-### StudentSystem-SalesDatabase
-A C# project for managing student and sales database records.
+## 🌐 Let's Connect!
 
-### Account & BankAccount
-Projects for account and banking system management.
+- [LinkedIn](https://linkedin.com/in/your-profile)
+- [GitHub](https://github.com/MahmoudBakri225)
+- 📧 Email: mahmoudbaki225@gmail.com
 
-## Get in Touch
-Feel free to reach out if you're interested in collaboration or have any questions. Let’s connect and create something awesome together!
+---
+
+Feel free to reach out to discuss projects, collaborations, or anything tech-related!
