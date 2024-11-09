@@ -11,7 +11,10 @@ I'm a passionate Full-Stack .NET Developer with experience in backend developmen
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET Core" width="40" height="40"/> .NET Core &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="SQL" width="40" height="40"/> SQL &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/> HTML5 &nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> CSS3
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/> CSS3 &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aspnet/aspnet-original.svg" alt="ASP.NET" width="40" height="40"/> ASP.NET &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linq/linq-original.svg" alt="LINQ" width="40" height="40"/> LINQ &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ef/ef-original.svg" alt="Entity Framework" width="40" height="40"/> Entity Framework
 </p>
 
 ### Tools & Technologies
