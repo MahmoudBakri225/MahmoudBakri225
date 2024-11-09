@@ -1,16 +1,41 @@
-## Hi there 👋
+# 👋 Hi, I'm Mahmoud Bakri
 
-<!--
-**MahmoudBakri225/MahmoudBakri225** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a full-stack .NET developer with experience in building dynamic and responsive applications, specializing in C# and .NET development. Welcome to my GitHub profile, where I showcase a collection of my public and private projects.
 
-Here are some ideas to get you started:
+## Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### ECommerce
+A comprehensive e-commerce application built in C# for managing product listings, orders, and user authentication.
+
+### B-UniversityManagement
+An advanced management system for university administration, developed in C#.
+
+### UniversityManagement
+A C# project focused on managing university resources, student data, and academic information.
+
+### EComerciAPI
+RESTful API for e-commerce operations, enabling functionalities like product management and order processing.
+
+### ETickets
+A ticket management system in C# for handling event ticket sales and bookings.
+
+### ProductAPI
+API service to manage product details and cataloging, built with C#.
+
+### MVCSimpleApp
+A basic MVC application built in C#, demonstrating core MVC principles and CRUD operations.
+
+### Hospital
+A front-end hospital management template built with HTML.
+
+### EFTask-Html
+An entity framework task project in C# demonstrating the use of Entity Framework.
+
+### StudentSystem-SalesDatabase
+A C# project for managing student and sales database records.
+
+### Account & BankAccount
+Projects for account and banking system management.
+
+## Get in Touch
+Feel free to reach out if you're interested in collaboration or have any questions. Let’s connect and create something awesome together!
