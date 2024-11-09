@@ -19,7 +19,7 @@ I'm a passionate Full-Stack .NET Developer with experience in backend developmen
 
 ## 🚀 Projects
 
-### [🎬 Movie Site](https://github.com/MahmoudBakri225/Movie-Site)
+### [🎬 Movie Site](https://github.com/MahmoudBakri225/ETickets)
 A movie site built with C# and ASP.NET Core, allowing users to browse, search, and view movies. The site includes features like user authentication, movie categories, and a responsive UI. The project demonstrates backend integration, database management, and frontend design.
 
 #### Features:
