@@ -34,6 +34,17 @@ Check out the demo video: [Watch the Demo](https://github.com/MahmoudBakri225/ET
 ### [🏦 Bank Account Management System](https://github.com/MahmoudBakri225/Bank-Account-Management-System)
 A console-based bank account management application that supports creating accounts, depositing, withdrawing, and displaying account information. This project demonstrates key concepts like object-oriented programming, collections, and C# fundamentals.
 
+### [🛒 E-Commerce Platform](https://github.com/MahmoudBakri225/ECommerceAPI)
+A full-fledged shopping system that allows users to browse products, add items to the shopping cart, and manage their orders. It includes an admin panel for managing inventory and orders, and is built using **ASP.NET Core**, **Entity Framework**, and **SQL Server**.
+
+#### Features:
+- **Product Browsing**: Browse products by categories and brands.
+- **Shopping Cart**: Add, remove, and update items in the cart.
+- **Order Management**: View and track orders.
+- **Admin Panel**: Manage products, categories, and view orders.
+- **Database Integration**: Data stored in SQL Server, managed with Entity Framework.
+
+
 ### ETickets
 An MVC system to display available movies and allow users to book tickets with a full-control dashboard.
 
