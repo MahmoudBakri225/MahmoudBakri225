@@ -58,7 +58,7 @@ A web application designed to facilitate hospital operations, allowing users to 
   - Backend: ASP.NET Core
   - Database: SQL Server
 
-For more information, check out the [Hospital Management System repository](https://github.com/MahmoudBakri225/Hospital-Management-System).
+
 
 ## 📚 Education
 
