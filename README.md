@@ -62,7 +62,7 @@ A web application designed to facilitate hospital operations, allowing users to 
 
 ## 📚 Education
 
-**Bachelor's Degree in Information Systems**  
+**Bachelor's Degree in  Computer and Information Systems, specializing in Information Systems.**  
 Zagazig University  
 Grade: Very Good
 
