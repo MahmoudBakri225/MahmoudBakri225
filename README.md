@@ -45,8 +45,20 @@ A full-fledged shopping system that allows users to browse products, add items t
 - **Database Integration**: Data stored in SQL Server, managed with Entity Framework.
 
 
-### Banking System
-A C# program simulating banking operations such as deposits and withdrawals.
+### [Hospital Management System 🏥](https://github.com/MahmoudBakri225/Hospital-Management-System)
+A web application designed to facilitate hospital operations, allowing users to book appointments, view doctor profiles, and manage reservations.
+
+- **Features**:
+  - Home Page with an overview of services and specialties.
+  - Appointment booking with doctor profiles and specializations.
+  - Reservations management for easy handling of scheduled appointments.
+  
+- **Technologies Used**:
+  - Frontend: HTML, CSS, JavaScript
+  - Backend: ASP.NET Core
+  - Database: SQL Server
+
+For more information, check out the [Hospital Management System repository](https://github.com/MahmoudBakri225/Hospital-Management-System).
 
 ## 📚 Education
 
