@@ -78,7 +78,7 @@ Grade: Very Good
 
 ## 🌐 Let's Connect!
 
-- [LinkedIn](https://linkedin.com/in/your-profile)
+- [LinkedIn](https://www.linkedin.com/in/mahmoud-bakri-377237221/)
 - [GitHub](https://github.com/MahmoudBakri225)
 - 📧 Email: mahmoudbaki225@gmail.com
 
