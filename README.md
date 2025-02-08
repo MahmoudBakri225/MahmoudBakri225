@@ -20,17 +20,21 @@ I'm a passionate Full-Stack .NET Developer with experience in backend developmen
 
 ## 🚀 Projects
 
-### [🎬 Movie Site](https://github.com/MahmoudBakri225/ETickets)
-A movie site built with C# and ASP.NET Core, allowing users to browse, search, and view movies. The site includes features like user authentication, movie categories, and a responsive UI. The project demonstrates backend integration, database management, and frontend design.
+### [🗺️ Al-Sharkia COVID-19 Interactive Map & Advisory](your-repo-link-here)
+An expert system designed to diagnose COVID-19 and suggest the nearest hospital based on the patient's location. This project won **First Place** in the Graduation Projects Competition at Zagazig University.
 
 #### Features:
-- **User Authentication**: Secure login and sign-up process.
-- **Movie Browsing**: Browse by categories, genres, and search functionality.
-- **Movie Details**: View trailers, descriptions, and release dates.
-- **Responsive UI**: Optimized for desktop and mobile.
-- **Admin Panel**: Add, edit, and delete movies.
+- Symptom-based diagnosis using an expert system.
+- Location-based hospital recommendations.
+- Real-time COVID-19 updates and preventive measures.
 
-Check out the demo video: [Watch the Demo](https://github.com/MahmoudBakri225/ETickets/blob/main/video.mp4)
+#### Technologies Used:
+- ASP.NET Core, C#
+- Entity Framework, SQL Server
+- Google Maps API for location tracking
+
+### [🎬 Movie Site](https://github.com/MahmoudBakri225/ETickets)
+A movie site built with C# and ASP.NET Core, allowing users to browse, search, and view movies. The site includes features like user authentication, movie categories, and a responsive UI. The project demonstrates backend integration, database management, and frontend design.
 
 ### [🏦 Bank Account Management System](https://github.com/MahmoudBakri225/Bank-Account-Management-System)
 A console-based bank account management application that supports creating accounts, depositing, withdrawing, and displaying account information. This project demonstrates key concepts like object-oriented programming, collections, and C# fundamentals.
@@ -38,43 +42,24 @@ A console-based bank account management application that supports creating accou
 ### [🛒 E-Commerce Platform](https://github.com/MahmoudBakri225/ECommerceAPI)
 A full-fledged shopping system that allows users to browse products, add items to the shopping cart, and manage their orders. It includes an admin panel for managing inventory and orders, and is built using **ASP.NET Core**, **Entity Framework**, and **SQL Server**.
 
-#### Features:
-- **Product Browsing**: Browse products by categories and brands.
-- **Shopping Cart**: Add, remove, and update items in the cart.
-- **Order Management**: View and track orders.
-- **Admin Panel**: Manage products, categories, and view orders.
-- **Database Integration**: Data stored in SQL Server, managed with Entity Framework.
-
-
-### [Hospital Management System 🏥](https://github.com/MahmoudBakri225/Hospital-Management-System)
+### [🏥 Hospital Management System](https://github.com/MahmoudBakri225/Hospital-Management-System)
 A web application designed to facilitate hospital operations, allowing users to book appointments, view doctor profiles, and manage reservations.
-
-- **Features**:
-  - Home Page with an overview of services and specialties.
-  - Appointment booking with doctor profiles and specializations.
-  - Reservations management for easy handling of scheduled appointments.
-  
-- **Technologies Used**:
-  - Frontend: HTML, CSS, JavaScript
-  - Backend: ASP.NET Core
-  - Database: SQL Server
-
-
 
 ## 📚 Education
 
-**Bachelor's Degree in  Computer and Information Systems, specializing in Information Systems.**  
+**Bachelor's Degree in Computer and Information Systems, specializing in Information Systems.**  
 Zagazig University  
 Grade: Very Good
 
 ## 💼 Experience
 
-- **Backend Developer Intern** at Algoriza and EraaSoft – Worked on backend systems using technologies like C#, ASP.NET, SQL Server, LINQ, and Entity Framework.
+- **Backend Developer at EraaSoft** – Worked on backend systems using technologies like C#, ASP.NET, SQL Server, LINQ, and Entity Framework.
+- **Backend Developer Intern at Algoriza** – Developed and maintained backend applications, improving system efficiency and scalability.
 - **Self-taught Developer** – Completed various courses on Udemy, expanding my knowledge in C# and SQL.
 
 ## 🏆 Honors & Awards
 
-- **First Place** in Graduation Projects Competition, Information Systems Department, Zagazig University  
+- 🏆 **First Place** in Graduation Projects Competition, Information Systems Department, Zagazig University  
   Project: Al-Sharkia COVID-19 Interactive Map & Advisory
 
 ## 🌐 Let's Connect!
