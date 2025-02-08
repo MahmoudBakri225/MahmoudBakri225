@@ -20,7 +20,7 @@ I'm a passionate Full-Stack .NET Developer with experience in backend developmen
 
 ## 🚀 Projects
 
-### [🗺️ Al-Sharkia COVID-19 Interactive Map & Advisory](your-repo-link-here)
+### [🗺️ Al-Sharkia COVID-19 Interactive Map & Advisory](https://github.com/MahmoudBakri225/Al-sharkia-COVID-19-Interactive-Map-Advisory-System)
 An expert system designed to diagnose COVID-19 and suggest the nearest hospital based on the patient's location. This project won **First Place** in the Graduation Projects Competition at Zagazig University.
 
 #### Features:
