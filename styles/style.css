@@ -620,3 +620,11 @@ input:checked + .slider::before {
     font-size: 27px;
   }
 }
+/* Final navbar layout fix */
+.nav .wrap{display:flex;align-items:center;height:72px;gap:18px;position:relative;overflow:visible;}
+.navlinks{margin-left:auto;}
+.nav-right{display:flex;align-items:center;gap:8px;margin-left:18px;}
+@media (max-width:779px){
+  .navlinks{margin-left:0;}
+  .nav-right{margin-left:auto;}
+}
