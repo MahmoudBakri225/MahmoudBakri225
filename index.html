@@ -31,20 +31,14 @@
 
 <nav class="nav">
   <div class="wrap">
-    <div class="brand"><span class="mark">MB</span> Mahmoud Bakri</div>
-    
-    <div class="nav-right">
-      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" type="button">
-        <i class="fa-solid fa-bars"></i>
-        <i class="fa-solid fa-xmark"></i>
-      </button>
 
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" type="button">
-        <i class="fa-solid fa-circle-half-stroke sun"></i>
-        <i class="fa-regular fa-moon moon"></i>
-      </button>
+    <!-- Logo / Name -->
+    <div class="brand">
+      <span class="mark">MB</span>
+      Mahmoud Bakri
     </div>
 
+    <!-- Navigation Links -->
     <ul class="navlinks" id="navlinks">
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
@@ -52,8 +46,39 @@
       <li><a href="#education">Education</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#certs">Certificates</a></li>
-      <li><a class="nav-cta" href="#contact">Contact me</a></li>
+      <li>
+        <a class="nav-cta" href="#contact">Contact me</a>
+      </li>
     </ul>
+
+    <!-- Menu + Theme -->
+    <div class="nav-right">
+
+      <!-- Mobile Menu -->
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        type="button"
+      >
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Theme Toggle -->
+      <button
+        class="theme-toggle"
+        id="themeToggle"
+        aria-label="Toggle dark mode"
+        type="button"
+      >
+        <i class="fa-solid fa-circle-half-stroke sun"></i>
+        <i class="fa-regular fa-moon moon"></i>
+      </button>
+
+    </div>
+
   </div>
 </nav>
 

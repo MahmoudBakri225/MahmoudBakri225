@@ -568,3 +568,41 @@ input:checked + .slider::before {
   .navlinks a:hover{color:var(--navy);background:var(--bg-soft);}
   .navlinks li:last-child a{border-bottom:none;margin-top:6px;text-align:center;}
 }
+/* =========================
+   DESKTOP NAVIGATION
+========================= */
+
+@media (min-width: 780px) {
+
+  .nav .wrap {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    gap: 18px;
+  }
+
+  .brand {
+    flex-shrink: 0;
+  }
+
+  .navlinks {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-left: auto;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+  }
+
+  .theme-toggle {
+    display: inline-flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
