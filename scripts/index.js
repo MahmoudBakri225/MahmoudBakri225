@@ -1,4 +1,8 @@
+
 (function () {
+
+  "use strict";
+
 
   // ==========================================
   // THEME TOGGLE
@@ -13,19 +17,25 @@
 
     function setTheme(theme) {
 
-      if (theme === "dark") {
+      const isDark = theme === "dark";
 
-        themeStylesheet.href = "styles/dark.css";
+      themeStylesheet.href = isDark
+        ? "styles/dark.css"
+        : "styles/style.css";
 
-        themeToggle.classList.add("dark");
+      themeToggle.classList.toggle("dark", isDark);
 
-      } else {
+      themeToggle.setAttribute(
+        "aria-label",
+        isDark
+          ? "Switch to light mode"
+          : "Switch to dark mode"
+      );
 
-        themeStylesheet.href = "styles/style.css";
-
-        themeToggle.classList.remove("dark");
-
-      }
+      themeToggle.setAttribute(
+        "aria-pressed",
+        isDark ? "true" : "false"
+      );
 
       localStorage.setItem("theme", theme);
     }
@@ -39,7 +49,7 @@
     );
 
 
-    // Change theme
+    // Toggle theme
     themeToggle.addEventListener("click", function () {
 
       const isDark =
@@ -75,25 +85,47 @@
     // Open / Close Menu
     // ------------------------------------------
 
+    function closeMenu() {
+
+      navlinks.classList.remove("open");
+
+      menuToggle.setAttribute(
+        "aria-expanded",
+        "false"
+      );
+
+    }
+
+
+    function openMenu() {
+
+      navlinks.classList.add("open");
+
+      menuToggle.setAttribute(
+        "aria-expanded",
+        "true"
+      );
+
+    }
+
+
     menuToggle.addEventListener(
       "click",
-      function (e) {
+      function (event) {
 
-        // Prevent outside-click handler
-        e.stopPropagation();
+        event.stopPropagation();
 
         const isOpen =
-          navlinks.classList.toggle("open");
+          navlinks.classList.contains("open");
 
-
-        menuToggle.setAttribute(
-          "aria-expanded",
-          isOpen ? "true" : "false"
-        );
+        if (isOpen) {
+          closeMenu();
+        } else {
+          openMenu();
+        }
 
       }
     );
-
 
 
     // ------------------------------------------
@@ -103,25 +135,18 @@
     const links =
       navlinks.querySelectorAll("a");
 
-
     links.forEach(function (link) {
 
       link.addEventListener(
         "click",
         function () {
 
-          navlinks.classList.remove("open");
-
-          menuToggle.setAttribute(
-            "aria-expanded",
-            "false"
-          );
+          closeMenu();
 
         }
       );
 
     });
-
 
 
     // ------------------------------------------
@@ -130,20 +155,15 @@
 
     document.addEventListener(
       "click",
-      function (e) {
+      function (event) {
 
         if (
           navlinks.classList.contains("open") &&
-          !navlinks.contains(e.target) &&
-          !menuToggle.contains(e.target)
+          !navlinks.contains(event.target) &&
+          !menuToggle.contains(event.target)
         ) {
 
-          navlinks.classList.remove("open");
-
-          menuToggle.setAttribute(
-            "aria-expanded",
-            "false"
-          );
+          closeMenu();
 
         }
 
@@ -151,28 +171,179 @@
     );
 
 
-
     // ------------------------------------------
-    // Close Menu When Pressing ESC
+    // Close Menu With ESC
     // ------------------------------------------
 
     document.addEventListener(
       "keydown",
-      function (e) {
+      function (event) {
 
-        if (e.key === "Escape") {
+        if (event.key === "Escape") {
 
-          navlinks.classList.remove("open");
+          closeMenu();
 
-          menuToggle.setAttribute(
-            "aria-expanded",
-            "false"
+          menuToggle.focus();
+
+        }
+
+      }
+    );
+
+
+    // ------------------------------------------
+    // Close Menu When Resizing To Desktop
+    // ------------------------------------------
+
+    window.addEventListener(
+      "resize",
+      function () {
+
+        if (window.innerWidth > 900) {
+
+          closeMenu();
+
+        }
+
+      }
+    );
+
+  }
+
+
+
+  // ==========================================
+  // SMOOTH SCROLL
+  // ==========================================
+
+  const internalLinks =
+    document.querySelectorAll('a[href^="#"]');
+
+  internalLinks.forEach(function (link) {
+
+    link.addEventListener(
+      "click",
+      function (event) {
+
+        const targetId =
+          link.getAttribute("href");
+
+        if (
+          !targetId ||
+          targetId === "#"
+        ) {
+          return;
+        }
+
+
+        const target =
+          document.querySelector(targetId);
+
+        if (!target) {
+          return;
+        }
+
+
+        event.preventDefault();
+
+
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+
+
+        // Update URL without jumping
+        if (history.pushState) {
+
+          history.pushState(
+            null,
+            "",
+            targetId
           );
 
         }
 
       }
     );
+
+  });
+
+
+
+  // ==========================================
+  // REVEAL ANIMATION
+  // ==========================================
+
+  const revealItems =
+    document.querySelectorAll(".reveal");
+
+
+  if (
+    revealItems.length &&
+    "IntersectionObserver" in window
+  ) {
+
+    const observer =
+      new IntersectionObserver(
+        function (entries, observerInstance) {
+
+          entries.forEach(function (entry) {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add("in");
+
+              observerInstance.unobserve(
+                entry.target
+              );
+
+            }
+
+          });
+
+        },
+        {
+          threshold: 0.12
+        }
+      );
+
+
+    revealItems.forEach(function (element) {
+
+      observer.observe(element);
+
+    });
+
+  } else {
+
+    revealItems.forEach(function (element) {
+
+      element.classList.add("in");
+
+    });
+
+  }
+
+
+
+  // ==========================================
+  // CURRENT YEAR
+  // ==========================================
+
+  const yearElements =
+    document.querySelectorAll("[data-current-year]");
+
+  if (yearElements.length) {
+
+    const currentYear =
+      new Date().getFullYear();
+
+    yearElements.forEach(function (element) {
+
+      element.textContent = currentYear;
+
+    });
 
   }
 
