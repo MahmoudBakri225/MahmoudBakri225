@@ -93,23 +93,172 @@ My background in **Java, C#, ASP.NET Core, SQL, and RESTful APIs** helps me unde
 
 ## 🧪 Software Testing
 
+### 🛒 [Mina Online Store — Add to Cart Testing](https://github.com/MahmoudBakri225/Mina-Online-Store-Testing)
+
+**DEPI – Software Testing Track | Part 02: ISTQB – Static / Manual Testing (Task 2)**
+
+A practical manual software testing project focused on testing the **Add to Cart** feature of an online store.
+
+### 🎯 Feature Under Test
+
+**Add Product to Cart**
+
+**Application Under Test:**
+https://minayounan-cs.github.io/TestLab/products.html
+
+### 📊 Test Execution Summary
+
+| Metric                 |     Result |
+| ---------------------- | ---------: |
+| Total Test Cases       |     **16** |
+| Passed                 |     **13** |
+| Failed                 |      **3** |
+| Blocked                |      **0** |
+| Pass Rate              | **81.25%** |
+| Exploratory Test Cases |      **4** |
+| Exploratory Findings   |      **4** |
+
+### 🧪 Testing Coverage
+
+* Manual Testing
+* Functional Testing
+* Exploratory Testing
+* Usability Testing
+* Accessibility Testing
+* Performance Testing
+* Compatibility Testing
+* Responsive Testing
+* Browser Console Testing
+* localStorage Testing
+* Test Case Design
+* Test Execution
+* Defect Identification
+* Test Documentation
+
+### 🔍 Test Scenarios
+
+* Product cards rendering
+* Add a new product to cart
+* Add the same product multiple times
+* Cart badge quantity
+* Cart persistence after refresh
+* Anonymous user behavior
+* Logged-in user behavior
+* JavaScript console errors
+* localStorage availability
+* Keyboard accessibility
+* Color contrast
+* Responsive layout
+* Add to Cart performance
+* Success feedback timing
+
+### 📝 Test Results
+
+* **TC-ADD-01 → Pass**
+* **TC-ADD-02 → Pass**
+* **TC-ADD-03 → Pass**
+* **TC-ADD-04 → Pass**
+* **TC-ADD-05 → Pass**
+* **TC-ADD-06 → Fail** — Anonymous user cannot add product
+* **TC-ADD-07 → Pass**
+* **TC-ADD-08 → Pass**
+* **TC-ADD-09 → Pass**
+* **TC-ADD-10 → Pass**
+* **TC-ADD-11 → Fail** — localStorage error is not handled gracefully
+* **TC-ADD-12 → Pass**
+* **TC-ADD-13 → Pass**
+* **TC-ADD-14 → Fail** — Insufficient color contrast
+* **TC-ADD-15 → Pass**
+* **TC-ADD-16 → Pass**
+
+### 🐞 Confirmed Defects
+
+**DEF-ADD-01 — Anonymous User Cannot Add Product**
+
+* Severity: **High**
+* Priority: **High**
+* Status: **Open**
+* Related Test Case: **TC-ADD-06**
+
+**DEF-ADD-02 — localStorage Error Is Not Handled Gracefully**
+
+* Severity: **Medium**
+* Priority: **High**
+* Status: **Open**
+* Related Test Case: **TC-ADD-11**
+
+**DEF-ADD-03 — Insufficient Color Contrast**
+
+* Severity: **Medium**
+* Priority: **Medium**
+* Status: **Open**
+* Related Test Case: **TC-ADD-14**
+* Lighthouse Accessibility Score: **83**
+
+### 🔎 Exploratory Testing Findings
+
+Four additional exploratory scenarios were investigated:
+
+* **ETC-01:** Stock/availability handling is unclear.
+* **ETC-02:** Full Name accepts one character; minimum length is unclear.
+* **ETC-03:** Password appears as plain text in exported Excel.
+* **ETC-04:** Cart becomes empty after completing an unpaid order.
+
+### ⚡ Performance Testing
+
+The Add to Cart operation was measured using `performance.now()`.
+
+Observed measurements:
+
+* **6.20 ms**
+* **1.00 ms**
+* **0.90 ms**
+
+Requirement: **Less than 1 second**
+
+**Result: Pass**
+
+### ♿ Accessibility Testing
+
+* Keyboard accessibility → **Pass**
+* Arabic Add to Cart label → **Pass**
+* Button visibility → **Pass**
+* Color contrast → **Fail**
+* Lighthouse accessibility score → **83**
+
+### 🛠️ Tools Used
+
+* Chrome DevTools
+* Browser Console
+* Lighthouse
+* `performance.now()`
+* localStorage
+* Microsoft Word
+* Microsoft Excel
+* Git
+* GitHub
+
+👉 **[View Full Mina Online Store Testing Repository](https://github.com/MahmoudBakri225/Mina-Online-Store-Testing)**
+
+---
+
 ### 🔬 Testing & Quality Assurance
 
 I'm developing my software testing portfolio through practical testing exercises and projects covering:
 
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- Integration Testing
-- API Testing
-- Test Case Design
-- Test Execution
-- Bug Reporting & Tracking
-- Requirement Analysis
-- SQL Database Testing
-- Retesting
-- Defect Verification
-- Test Documentation
+* Manual Testing
+* Functional Testing
+* Regression Testing
+* Integration Testing
+* API Testing
+* Test Case Design
+* Test Execution
+* Bug Reporting & Tracking
+* Requirement Analysis
+* SQL Database Testing
+* Retesting
+* Defect Verification
+* Test Documentation
 
 ---
 
@@ -123,20 +272,20 @@ An expert system designed to diagnose COVID-19 based on symptoms and recommend t
 
 ### Features
 
-- Symptom-based diagnosis using an expert system.
-- Location-based hospital recommendations.
-- Real-time COVID-19 updates.
-- Preventive recommendations.
-- Interactive map and location tracking.
+* Symptom-based diagnosis using an expert system.
+* Location-based hospital recommendations.
+* Real-time COVID-19 updates.
+* Preventive recommendations.
+* Interactive map and location tracking.
 
 ### Technologies
 
-- ASP.NET Core
-- C#
-- Entity Framework
-- SQL Server
-- Google Maps API
-- Expert Systems
+* ASP.NET Core
+* C#
+* Entity Framework
+* SQL Server
+* Google Maps API
+* Expert Systems
 
 ---
 
@@ -146,21 +295,21 @@ A web-based movie platform developed using ASP.NET Core that allows users to bro
 
 ### Features
 
-- User authentication.
-- Movie browsing and searching.
-- Movie categories.
-- Movie details.
-- Responsive interface.
-- Database integration.
+* User authentication.
+* Movie browsing and searching.
+* Movie categories.
+* Movie details.
+* Responsive interface.
+* Database integration.
 
 ### Technologies
 
-- C#
-- ASP.NET Core MVC
-- Entity Framework
-- SQL Server
-- HTML5
-- CSS3
+* C#
+* ASP.NET Core MVC
+* Entity Framework
+* SQL Server
+* HTML5
+* CSS3
 
 ---
 
@@ -170,21 +319,21 @@ A backend e-commerce system providing product, shopping cart, order, and invento
 
 ### Features
 
-- Product management.
-- Shopping cart.
-- Order management.
-- Inventory management.
-- Admin functionality.
-- RESTful APIs.
-- Database integration.
+* Product management.
+* Shopping cart.
+* Order management.
+* Inventory management.
+* Admin functionality.
+* RESTful APIs.
+* Database integration.
 
 ### Technologies
 
-- ASP.NET Core Web API
-- C#
-- Entity Framework Core
-- SQL Server
-- RESTful API
+* ASP.NET Core Web API
+* C#
+* Entity Framework Core
+* SQL Server
+* RESTful API
 
 ---
 
@@ -194,20 +343,20 @@ A web-based hospital management system designed to manage doctors, patients, app
 
 ### Features
 
-- Doctor management.
-- Patient management.
-- Appointment booking.
-- Reservation management.
-- Doctor profile management.
+* Doctor management.
+* Patient management.
+* Appointment booking.
+* Reservation management.
+* Doctor profile management.
 
 ### Technologies
 
-- ASP.NET Core
-- C#
-- Entity Framework
-- SQL Server
-- HTML5
-- CSS3
+* ASP.NET Core
+* C#
+* Entity Framework
+* SQL Server
+* HTML5
+* CSS3
 
 ---
 
@@ -217,18 +366,18 @@ A console-based banking application developed to demonstrate Object-Oriented Pro
 
 ### Features
 
-- Account creation.
-- Deposit operations.
-- Withdrawal operations.
-- Account information management.
-- Multiple account handling.
+* Account creation.
+* Deposit operations.
+* Withdrawal operations.
+* Account information management.
+* Multiple account handling.
 
 ### Technologies
 
-- C#
-- Object-Oriented Programming
-- Collections
-- Console Application
+* C#
+* Object-Oriented Programming
+* Collections
+* Console Application
 
 ---
 
@@ -240,35 +389,35 @@ The system provides functionality for managing students, instructors, courses, e
 
 ### Features
 
-- Student management.
-- Undergraduate and Graduate students.
-- Instructor management.
-- Full-time and Part-time instructors.
-- Course management.
-- Student enrollment.
-- Grade management.
-- GPA calculation.
-- Course capacity validation.
-- Duplicate enrollment prevention.
-- Custom exception handling.
+* Student management.
+* Undergraduate and Graduate students.
+* Instructor management.
+* Full-time and Part-time instructors.
+* Course management.
+* Student enrollment.
+* Grade management.
+* GPA calculation.
+* Course capacity validation.
+* Duplicate enrollment prevention.
+* Custom exception handling.
 
 ### OOP Concepts
 
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-- Composition
-- Exception Handling
-- Java Collections
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Abstraction
+* Composition
+* Exception Handling
+* Java Collections
 
 ### Technologies
 
-- Java
-- Maven
-- Object-Oriented Programming
-- Java Collections
-- Exception Handling
+* Java
+* Maven
+* Object-Oriented Programming
+* Java Collections
+* Exception Handling
 
 ---
 
@@ -278,21 +427,21 @@ A Java-based **Static Code Analyzer** that scans Java projects, applies register
 
 ### Features
 
-- Static analysis of Java source files.
-- Clean Code rule validation.
-- Code quality issue detection.
-- Console-based analysis results.
-- HTML report generation.
-- Extensible rule-based architecture.
+* Static analysis of Java source files.
+* Clean Code rule validation.
+* Code quality issue detection.
+* Console-based analysis results.
+* HTML report generation.
+* Extensible rule-based architecture.
 
 ### Technologies
 
-- Java
-- Maven
-- Static Code Analysis
-- Clean Code
-- Object-Oriented Programming
-- HTML Reporting
+* Java
+* Maven
+* Static Code Analysis
+* Clean Code
+* Object-Oriented Programming
+* HTML Reporting
 
 ---
 
@@ -312,27 +461,27 @@ A Java-based **Static Code Analyzer** that scans Java projects, applies register
 
 ## 🧪 Software Testing Engineer Trainee
 
-**Digital Egypt Pioneers Initiative (DEPI)**  
+**Digital Egypt Pioneers Initiative (DEPI)**
 **Ministry of Communications and Information Technology (MCIT)**
 
 📅 **July 2026 – Present**
 
 Currently developing practical skills in Software Testing and Quality Assurance, including:
 
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- Integration Testing
-- API Testing
-- Test Case Design
-- Test Execution
-- Bug Reporting
-- SDLC / STLC
-- Agile / Scrum
-- ISTQB v4.0 Standards
-- SQL Database Testing
-- Postman
-- Selenium
+* Manual Testing
+* Functional Testing
+* Regression Testing
+* Integration Testing
+* API Testing
+* Test Case Design
+* Test Execution
+* Bug Reporting
+* SDLC / STLC
+* Agile / Scrum
+* ISTQB v4.0 Standards
+* SQL Database Testing
+* Postman
+* Selenium
 
 ---
 
@@ -342,12 +491,12 @@ Currently developing practical skills in Software Testing and Quality Assurance,
 
 Worked on backend development using:
 
-- C#
-- ASP.NET
-- ASP.NET Core
-- SQL Server
-- LINQ
-- Entity Framework
+* C#
+* ASP.NET
+* ASP.NET Core
+* SQL Server
+* LINQ
+* Entity Framework
 
 Focused on backend development, database integration, and building maintainable software solutions.
 
@@ -359,13 +508,13 @@ Gained practical experience in backend application development and database inte
 
 ### Technologies & Responsibilities
 
-- C#
-- ASP.NET Core
-- SQL Server
-- Entity Framework
-- RESTful APIs
-- Backend Development
-- Database Integration
+* C#
+* ASP.NET Core
+* SQL Server
+* Entity Framework
+* RESTful APIs
+* Backend Development
+* Database Integration
 
 ---
 
@@ -373,12 +522,12 @@ Gained practical experience in backend application development and database inte
 
 Continuously developing software engineering and testing skills through:
 
-- Technical courses.
-- Practical projects.
-- Documentation and technical research.
-- Problem-solving exercises.
-- Software development practice.
-- Software testing practice.
+* Technical courses.
+* Practical projects.
+* Documentation and technical research.
+* Problem-solving exercises.
+* Software development practice.
+* Software testing practice.
 
 ---
 
@@ -388,7 +537,7 @@ Continuously developing software engineering and testing skills through:
 
 **Information Systems Department – Zagazig University**
 
-**Project:**  
+**Project:**
 Al-Sharkia COVID-19 Interactive Map & Advisory System
 
 The project achieved **First Place** in the Graduation Projects Competition.
@@ -399,24 +548,24 @@ The project achieved **First Place** in the Graduation Projects Competition.
 
 I'm currently focusing on building my career as a **Software Test Engineer**, with particular interest in:
 
-- 🔎 Manual Testing
-- 📝 Test Case Design
-- 🐞 Bug Reporting & Tracking
-- 🔄 Regression Testing
-- ⚙️ Functional Testing
-- 🔗 Integration Testing
-- 🌐 API Testing
-- 🗄️ SQL Database Testing
-- 🧪 Test Automation
-- 🌐 Selenium
-- 📮 Postman
-- 📊 Test Documentation
-- 🔍 Requirement Analysis
-- 📋 Decision Table Testing
-- 📐 Boundary Value Analysis
-- 🧩 Equivalence Partitioning
-- 🔁 SDLC / STLC
-- 🚀 Agile / Scrum
+* 🔎 Manual Testing
+* 📝 Test Case Design
+* 🐞 Bug Reporting & Tracking
+* 🔄 Regression Testing
+* ⚙️ Functional Testing
+* 🔗 Integration Testing
+* 🌐 API Testing
+* 🗄️ SQL Database Testing
+* 🧪 Test Automation
+* 🌐 Selenium
+* 📮 Postman
+* 📊 Test Documentation
+* 🔍 Requirement Analysis
+* 📋 Decision Table Testing
+* 📐 Boundary Value Analysis
+* 🧩 Equivalence Partitioning
+* 🔁 SDLC / STLC
+* 🚀 Agile / Scrum
 
 ---
 
@@ -424,30 +573,30 @@ I'm currently focusing on building my career as a **Software Test Engineer**, wi
 
 In addition to testing, I have a strong foundation in software development and engineering concepts:
 
-- Object-Oriented Programming
-- SOLID Principles
-- Design Patterns
-- Data Structures & Algorithms
-- Clean Code
-- Software Architecture
-- RESTful API Design
-- Database Design
-- Git & GitHub
-- Static Code Analysis
+* Object-Oriented Programming
+* SOLID Principles
+* Design Patterns
+* Data Structures & Algorithms
+* Clean Code
+* Software Architecture
+* RESTful API Design
+* Database Design
+* Git & GitHub
+* Static Code Analysis
 
 ---
 
 # 🤝 Interpersonal Skills
 
-- Effective Communication
-- Team Collaboration
-- Problem Solving
-- Analytical Thinking
-- Attention to Detail
-- Time Management
-- Self-Learning
-- Adaptability
-- Continuous Improvement
+* Effective Communication
+* Team Collaboration
+* Problem Solving
+* Analytical Thinking
+* Attention to Detail
+* Time Management
+* Self-Learning
+* Adaptability
+* Continuous Improvement
 
 ---
 
@@ -461,16 +610,16 @@ I aim to contribute to building reliable, maintainable, and high-quality softwar
 
 # 🌱 Currently Learning
 
-- Advanced Software Testing
-- Test Automation
-- Selenium WebDriver
-- API Testing with Postman
-- SQL for Software Testing
-- Advanced Test Case Design
-- ISTQB Testing Practices
-- Agile Testing
-- Automation Testing Frameworks
-- CI/CD Testing Practices
+* Advanced Software Testing
+* Test Automation
+* Selenium WebDriver
+* API Testing with Postman
+* SQL for Software Testing
+* Advanced Test Case Design
+* ISTQB Testing Practices
+* Agile Testing
+* Automation Testing Frameworks
+* CI/CD Testing Practices
 
 ---
 
